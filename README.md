@@ -7,6 +7,9 @@
 > are left as they were. Change `devices.json`, `tv_box.py` and the gateway config to match
 > your own network. No support or warranty: read the code before running it against your
 > devices or exposing anything to the internet.
+>
+> Licensed under the [MIT License](LICENSE). It builds on [flux_led](https://github.com/lightinglibs/flux_led)
+> (LGPL-3.0-or-later), which is installed from PyPI and imported as a library, not copied into this repo.
 
 **Parked 2026-11-01. Google Home control of both bulbs works.**
 To pick it up again, read **[RESUME.md](RESUME.md)** first. The reusable lessons
