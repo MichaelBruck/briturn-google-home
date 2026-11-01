@@ -1,0 +1,8 @@
+{
+  "public_url": "https://random-words-example.trycloudflare.com",
+  "google_project_id": "my-lights-project",
+  "tunnel_pid": 18681,
+  "gateway_pid": 18691,
+  "physical_writes_enabled": false,
+  "temporary_test_only": true
+}

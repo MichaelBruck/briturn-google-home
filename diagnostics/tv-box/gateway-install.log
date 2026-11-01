@@ -1,0 +1,99 @@
+Collecting async-timeout==5.0.1 (from -r gateway-app/gateway/requirements.txt (line 1))
+  Using cached async_timeout-5.0.1-py3-none-any.whl.metadata (5.1 kB)
+Collecting blinker==1.9.0 (from -r gateway-app/gateway/requirements.txt (line 2))
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting click==8.5.0 (from -r gateway-app/gateway/requirements.txt (line 3))
+  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting flask==3.1.3 (from -r gateway-app/gateway/requirements.txt (line 4))
+  Downloading flask-3.1.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting flask-wtf==1.3.0 (from -r gateway-app/gateway/requirements.txt (line 5))
+  Downloading flask_wtf-1.3.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting flux-led==1.2.0 (from -r gateway-app/gateway/requirements.txt (line 6))
+  Using cached flux_led-1.2.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting itsdangerous==2.2.0 (from -r gateway-app/gateway/requirements.txt (line 7))
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting jinja2==3.1.6 (from -r gateway-app/gateway/requirements.txt (line 8))
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting markupsafe==3.0.4 (from -r gateway-app/gateway/requirements.txt (line 9))
+  Downloading markupsafe-3.0.4.tar.gz (153 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting oauthlib==4.0.0 (from -r gateway-app/gateway/requirements.txt (line 10))
+  Downloading oauthlib-4.0.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting waitress==3.0.2 (from -r gateway-app/gateway/requirements.txt (line 11))
+  Downloading waitress-3.0.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting webcolors==25.10.0 (from -r gateway-app/gateway/requirements.txt (line 12))
+  Using cached webcolors-25.10.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting werkzeug==3.1.9 (from -r gateway-app/gateway/requirements.txt (line 13))
+  Downloading werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+Collecting wtforms==3.3.1 (from -r gateway-app/gateway/requirements.txt (line 14))
+  Downloading wtforms-3.3.1-py3-none-any.whl.metadata (4.9 kB)
+Using cached async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Downloading click-8.5.0-py3-none-any.whl (125 kB)
+Downloading flask-3.1.3-py3-none-any.whl (103 kB)
+Downloading flask_wtf-1.3.0-py3-none-any.whl (13 kB)
+Using cached flux_led-1.2.0-py3-none-any.whl (74 kB)
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading oauthlib-4.0.0-py3-none-any.whl (159 kB)
+Downloading waitress-3.0.2-py3-none-any.whl (56 kB)
+Using cached webcolors-25.10.0-py3-none-any.whl (14 kB)
+Downloading werkzeug-3.1.9-py3-none-any.whl (228 kB)
+Downloading wtforms-3.3.1-py3-none-any.whl (171 kB)
+Building wheels for collected packages: markupsafe
+  Building wheel for markupsafe (pyproject.toml): started
+  Building wheel for markupsafe (pyproject.toml): finished with status 'done'
+  Created wheel for markupsafe: filename=markupsafe-3.0.4-cp314-cp314-android_24_armeabi_v7a.whl size=19127 sha256=febd6483e44a3d1dc86450422f0aea3f1c99c92be1ebb38efa3a3fcf3a64aba8
+  Stored in directory: /data/data/com.termux/files/home/.cache/pip/wheels/3c/32/8e/0ac262eed77587e785cba417ccaaeba7bc294f086983504e30
+Successfully built markupsafe
+Installing collected packages: webcolors, waitress, oauthlib, markupsafe, itsdangerous, click, blinker, async-timeout, wtforms, werkzeug, jinja2, flux-led, flask, flask-wtf
+
+Successfully installed async-timeout-5.0.1 blinker-1.9.0 click-8.5.0 flask-3.1.3 flask-wtf-1.3.0 flux-led-1.2.0 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 oauthlib-4.0.0 waitress-3.0.2 webcolors-25.10.0 werkzeug-3.1.9 wtforms-3.3.1
+
+[notice] A new release of pip is available: 26.2.1 -> 26.2.2
+[notice] To update, run: /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv/bin/python -m pip install --upgrade pip
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.exec_prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+test_bad_redirect_client_scope_state_and_duplicate (gateway.test_gateway.GatewayTest.test_bad_redirect_client_scope_state_and_duplicate) ... ok
+test_code_one_use_expiry_redirect_and_client_secret (gateway.test_gateway.GatewayTest.test_code_one_use_expiry_redirect_and_client_secret) ... ok
+test_concurrent_code_exchange_only_once (gateway.test_gateway.GatewayTest.test_concurrent_code_exchange_only_once) ... ok
+test_csrf_required_and_wrong_password (gateway.test_gateway.GatewayTest.test_csrf_required_and_wrong_password) ... ok
+test_invalid_batch_writes_nothing_and_color_spelling (gateway.test_gateway.GatewayTest.test_invalid_batch_writes_nothing_and_color_spelling) ... ok
+test_link_sync_query_execute_and_disconnect (gateway.test_gateway.GatewayTest.test_link_sync_query_execute_and_disconnect) ... ok
+test_no_token_url_tokens_unknown_hosts_and_missing_configuration (gateway.test_gateway.GatewayTest.test_no_token_url_tokens_unknown_hosts_and_missing_configuration) ... ok
+test_offline_unknown_and_malformed_payloads (gateway.test_gateway.GatewayTest.test_offline_unknown_and_malformed_payloads) ... ok
+test_refresh_rotation_and_bearer_expiry (gateway.test_gateway.GatewayTest.test_refresh_rotation_and_bearer_expiry) ... ok
+test_tokens_not_stored_in_plaintext_and_security_headers (gateway.test_gateway.GatewayTest.test_tokens_not_stored_in_plaintext_and_security_headers) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.689s
+
+OK
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.exec_prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+Initialised private configuration; credentials were not printed.
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+<frozen site>:101: RuntimeWarning: Unexpected value in sys.exec_prefix, expected /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-venv, got /data/data/com.termux/files/home/.smart-bulb-bridge/gateway-app/../gateway-venv
+{
+  "tripod": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  },
+  "reading": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "service": "_androidtvremote2._tcp",
+    "output": "Browsing for _androidtvremote2._tcp.local.\r\nDATE: ---Wed 28 Oct 2026---\r\n22:48:44.303  ...STARTING...\r\n"
+  },
+  {
+    "service": "_googlecast._tcp",
+    "output": "Browsing for _googlecast._tcp.local.\r\nDATE: ---Wed 28 Oct 2026---\r\n22:48:44.301  ...STARTING...\r\n"
+  },
+  {
+    "service": "_adb._tcp",
+    "output": "Browsing for _adb._tcp.local.\r\nDATE: ---Wed 28 Oct 2026---\r\n22:48:44.304  ...STARTING...\r\n"
+  },
+  {
+    "service": "_adb-tls-connect._tcp",
+    "output": "Browsing for _adb-tls-connect._tcp.local.\r\nDATE: ---Wed 28 Oct 2026---\r\n22:48:44.306  ...STARTING...\r\n"
+  },
+  {
+    "service": "_adb-tls-pairing._tcp",
+    "output": "Browsing for _adb-tls-pairing._tcp.local.\r\nDATE: ---Wed 28 Oct 2026---\r\n22:48:44.308  ...STARTING...\r\n"
+  }
+]

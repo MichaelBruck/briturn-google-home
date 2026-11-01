@@ -1,0 +1,50 @@
+[
+  {
+    "ip": "192.168.3.1",
+    "port": 80,
+    "bound": true,
+    "result": "TimeoutError: timed out"
+  },
+  {
+    "ip": "192.168.3.1",
+    "port": 80,
+    "bound": false,
+    "result": "TimeoutError: timed out"
+  },
+  {
+    "ip": "192.168.3.100",
+    "port": 5577,
+    "bound": true,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+    "ip": "192.168.3.100",
+    "port": 5577,
+    "bound": false,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+    "ip": "192.168.3.103",
+    "port": 5577,
+    "bound": true,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+    "ip": "192.168.3.103",
+    "port": 5577,
+    "bound": false,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+    "ip": "192.168.3.145",
+    "port": 5577,
+    "bound": true,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  },
+  {
+    "ip": "192.168.3.145",
+    "port": 5577,
+    "bound": false,
+    "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+  }
+]

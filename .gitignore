@@ -1,0 +1,18 @@
+.venv/
+.bootstrap/
+.python/
+.cache/
+__pycache__/
+research/upstream/
+google-home/config/
+google-home/.env
+google-home/private/
+tv-box-install/private/
+gateway/.venv/
+gateway/private/
+gateway/__pycache__/
+.DS_Store
+**/__pycache__/
+*.pyc
+# 109 MB, over GitHub's file limit; re-download (see installer-source.json)
+tv-box-install/*.apk

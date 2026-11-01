@@ -1,0 +1,10 @@
+{
+  "bootstrap_url": "http://192.168.1.141:8765/setup",
+  "box_ip": "192.168.1.199",
+  "port": 8022,
+  "key_only": true,
+  "restricted_client_ip": "192.168.1.141",
+  "autostart": false,
+  "script_sha256": "a81e0701194850bd8f8af440c548b123744e198b701e089b4d1f05ff45f896e8",
+  "stage": "Prepared and served; not yet executed on TV box."
+}

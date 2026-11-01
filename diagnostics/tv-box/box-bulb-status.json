@@ -1,0 +1,52 @@
+{
+  "time": "2026-10-29T18:56:45.124313+00:00",
+  "source_ip": "192.168.1.199",
+  "read_only": true,
+  "bulbs": [
+    {
+      "alias": "tripod",
+      "ip": "192.168.1.172",
+      "model": "Bulb RGBCW (0x35)",
+      "version_byte": 10,
+      "protocol": "LEDENET_25_BYTE",
+      "on": true,
+      "color_mode": "CCT",
+      "brightness_percent": 100.0,
+      "temperature_kelvin_estimate": 3982,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "warm_white": 169,
+      "cool_white": 86,
+      "raw_state_hex": "813523613050000000a90a560fd2",
+      "sent_frames": [
+        "818a8b96"
+      ]
+    },
+    {
+      "alias": "reading",
+      "ip": "192.168.1.195",
+      "model": "Bulb RGBCW (0x35)",
+      "version_byte": 10,
+      "protocol": "LEDENET_25_BYTE",
+      "on": true,
+      "color_mode": "CCT",
+      "brightness_percent": 100.0,
+      "temperature_kelvin_estimate": 3982,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "warm_white": 169,
+      "cool_white": 86,
+      "raw_state_hex": "813523613050000000a90a560fd2",
+      "sent_frames": [
+        "818a8b96"
+      ]
+    }
+  ],
+  "captured_on_mac_at": "2026-10-29T22:58:23.782428+04:00"
+}

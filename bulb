@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+cd "$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+if [ "${1:-}" = discover ]; then
+    shift
+    exec .venv/bin/python discover.py "$@"
+fi
+exec .venv/bin/python controller.py "$@"

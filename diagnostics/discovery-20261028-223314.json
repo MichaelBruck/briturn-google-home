@@ -1,0 +1,179 @@
+{
+  "time": "2026-10-28T22:33:14.326241+04:00",
+  "lan": {
+    "interface": "en0",
+    "address": "192.168.1.127",
+    "subnet": "192.168.1.0/24"
+  },
+  "discovery": [
+    {
+      "ipaddr": "192.168.1.172",
+      "id": "0865F0AAAAAA",
+      "model": "AK001-ZJ21413",
+      "model_num": 53,
+      "version_num": 646,
+      "firmware_date": "2025-06-19",
+      "model_info": "ZG-BK38-BP101",
+      "model_description": "Bulb RGBCW",
+      "remote_access_enabled": true,
+      "remote_access_host": "sl8816us01.briturn.net",
+      "remote_access_port": 8816
+    },
+    {
+      "ipaddr": "192.168.1.195",
+      "id": "0865F0BBBBBB",
+      "model": "AK001-ZJ21413",
+      "model_num": 53,
+      "version_num": 646,
+      "firmware_date": "2025-06-19",
+      "model_info": "ZG-BK38-BP101",
+      "model_description": "Bulb RGBCW",
+      "remote_access_enabled": true,
+      "remote_access_host": "sl8816us01.briturn.net",
+      "remote_access_port": 8816
+    }
+  ],
+  "udp_replies": [
+    {
+      "source": [
+        "192.168.1.172",
+        48899
+      ],
+      "hex": "2b6f6b3d5443502c383831362c736c38383136757330312e6272697475726e2e6e65740d"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d33355f3238365f32303235303631395f5a472d424b33382d42503130310d"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "3139322e3136382e312e3139352c3038363546303033303036432c414b3030312d5a4a32313431332c3237373663396130386237623466383462313863303038"
+    },
+    {
+      "source": [
+        "192.168.1.172",
+        48899
+      ],
+      "hex": "2b6f6b3d33355f3238365f32303235303631395f5a472d424b33382d42503130310d"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d33355f3238365f32303235303631395f5a472d424b33382d42503130310d"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d5443502c383831362c736c38383136757330312e6272697475726e2e6e65740d"
+    },
+    {
+      "source": [
+        "192.168.1.172",
+        48899
+      ],
+      "hex": "3139322e3136382e312e3137322c3038363546303033303435342c414b3030312d5a4a32313431332c6538383631626637626430373465356162353433363634"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "3139322e3136382e312e3139352c3038363546303033303036432c414b3030312d5a4a32313431332c3237373663396130386237623466383462313863303038"
+    },
+    {
+      "source": [
+        "192.168.1.172",
+        48899
+      ],
+      "hex": "2b6f6b3d33355f3238365f32303235303631395f5a472d424b33382d42503130310d"
+    },
+    {
+      "source": [
+        "192.168.1.172",
+        48899
+      ],
+      "hex": "2b6f6b3d5443502c383831362c736c38383136757330312e6272697475726e2e6e65740d"
+    },
+    {
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d5443502c383831362c736c38383136757330312e6272697475726e2e6e65740d"
+    }
+  ],
+  "devices": [
+    {
+      "ip": "192.168.1.172",
+      "model": "Bulb RGBCW (0x35)",
+      "model_id": "0x35",
+      "version_byte": 10,
+      "protocol": "LEDENET_25_BYTE",
+      "on": true,
+      "mode": "ww",
+      "color_mode": "CCT",
+      "supported_color_modes": [
+        "CCT",
+        "RGB"
+      ],
+      "brightness_percent": 95.7,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "warm_white": 233,
+      "cool_white": 11,
+      "white_temperature_kelvin_estimate": 2871,
+      "library_temperature_range_kelvin": [
+        2700,
+        6500
+      ],
+      "raw_state_hex": "813523613050000000e90a0b0fc7",
+      "sent_frames": [
+        "818a8b96"
+      ]
+    },
+    {
+      "ip": "192.168.1.195",
+      "model": "Bulb RGBCW (0x35)",
+      "model_id": "0x35",
+      "version_byte": 10,
+      "protocol": "LEDENET_25_BYTE",
+      "on": true,
+      "mode": "ww",
+      "color_mode": "CCT",
+      "supported_color_modes": [
+        "CCT",
+        "RGB"
+      ],
+      "brightness_percent": 98.8,
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "warm_white": 252,
+      "cool_white": 0,
+      "white_temperature_kelvin_estimate": 2700,
+      "library_temperature_range_kelvin": [
+        2700,
+        6500
+      ],
+      "raw_state_hex": "813523613050000000fc0a000fcf",
+      "sent_frames": [
+        "818a8b96"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "time_utc": "2026-10-30T04:24:15.684366+00:00",
+  "public_url": "https://random-words-example.trycloudflare.com",
+  "live_writes": false,
+  "google_account_linked_by_this_check": false,
+  "https_health": 200,
+  "unauthenticated_fulfillment": 401,
+  "unapproved_redirect": 400,
+  "missing_csrf": 400,
+  "wrong_client_secret": 401,
+  "authorization_code_exchange": 200,
+  "replayed_code": 400,
+  "sync": {
+    "payload": {
+      "agentUserId": "d4f80e9d41ef878de65215e71b8d7f4c",
+      "devices": [
+        {
+          "attributes": {
+            "colorModel": "rgb",
+            "colorTemperatureRange": {
+              "temperatureMaxK": 6500,
+              "temperatureMinK": 2700
+            }
+          },
+          "deviceInfo": {
+            "manufacturer": "SKY-TOUCH / Briturn compatible",
+            "model": "AK001-ZJ21413 / 0x35 RGBCW"
+          },
+          "id": "tripod",
+          "name": {
+            "name": "Tripod lamp"
+          },
+          "traits": [
+            "action.devices.traits.OnOff",
+            "action.devices.traits.Brightness",
+            "action.devices.traits.ColorSetting"
+          ],
+          "type": "action.devices.types.LIGHT",
+          "willReportState": false
+        },
+        {
+          "attributes": {
+            "colorModel": "rgb",
+            "colorTemperatureRange": {
+              "temperatureMaxK": 6500,
+              "temperatureMinK": 2700
+            }
+          },
+          "deviceInfo": {
+            "manufacturer": "SKY-TOUCH / Briturn compatible",
+            "model": "AK001-ZJ21413 / 0x35 RGBCW"
+          },
+          "id": "reading",
+          "name": {
+            "name": "Reading Lamp"
+          },
+          "traits": [
+            "action.devices.traits.OnOff",
+            "action.devices.traits.Brightness",
+            "action.devices.traits.ColorSetting"
+          ],
+          "type": "action.devices.types.LIGHT",
+          "willReportState": false
+        }
+      ]
+    },
+    "requestId": "public-read-only-check"
+  },
+  "query": {
+    "payload": {
+      "devices": {
+        "reading": {
+          "brightness": 99,
+          "color": {
+            "temperatureK": 2700
+          },
+          "on": false,
+          "online": true,
+          "status": "SUCCESS"
+        },
+        "tripod": {
+          "brightness": 96,
+          "color": {
+            "temperatureK": 2871
+          },
+          "on": false,
+          "online": true,
+          "status": "SUCCESS"
+        }
+      }
+    },
+    "requestId": "public-read-only-check"
+  },
+  "refresh_exchange": 200,
+  "replayed_refresh": 400,
+  "cleaned_up_test_token": 401
+}

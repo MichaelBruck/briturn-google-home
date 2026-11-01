@@ -1,0 +1,13 @@
+{
+  "public_url": null,
+  "google_project_id": null,
+  "writes_enabled": false,
+  "source_ip": "192.168.1.199"
+}
+HTTP health: URLError
+cloudflared:
+  Installed: (none)
+  Candidate: 2026.10.5
+  Version table:
+     2026.10.5 500
+        500 https://grimler.se/termux/termux-main stable/main arm Packages

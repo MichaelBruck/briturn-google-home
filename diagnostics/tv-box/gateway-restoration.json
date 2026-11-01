@@ -1,0 +1,18 @@
+{
+  "tripod": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  },
+  "reading": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  }
+}

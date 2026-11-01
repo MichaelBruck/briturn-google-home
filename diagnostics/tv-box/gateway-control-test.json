@@ -1,0 +1,103 @@
+{
+  "time_utc": "2026-10-29T19:19:52.764850+00:00",
+  "device": "reading",
+  "before": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  },
+  "before_hex": "813523613050000000a90a560fd2",
+  "steps": [
+    {
+      "operation": [
+        "brightness",
+        35
+      ],
+      "observed": {
+        "online": true,
+        "on": true,
+        "brightness": 35,
+        "color": {
+          "temperatureK": 3981
+        }
+      }
+    },
+    {
+      "operation": [
+        "rgb",
+        255
+      ],
+      "observed": {
+        "online": true,
+        "on": true,
+        "brightness": 34,
+        "color": {
+          "spectrumRgb": 255
+        }
+      }
+    },
+    {
+      "operation": [
+        "on",
+        false
+      ],
+      "observed": {
+        "online": true,
+        "on": false,
+        "brightness": 34,
+        "color": {
+          "spectrumRgb": 255
+        }
+      }
+    },
+    {
+      "operation": [
+        "on",
+        true
+      ],
+      "observed": {
+        "online": true,
+        "on": true,
+        "brightness": 34,
+        "color": {
+          "spectrumRgb": 255
+        }
+      }
+    },
+    {
+      "operation": [
+        "temperature",
+        3000
+      ],
+      "observed": {
+        "online": true,
+        "on": true,
+        "brightness": 33,
+        "color": {
+          "temperatureK": 2968
+        }
+      }
+    }
+  ],
+  "control_test": "passed",
+  "restored": {
+    "online": true,
+    "on": true,
+    "brightness": 33,
+    "color": {
+      "temperatureK": 2968
+    }
+  },
+  "tripod_after": {
+    "online": true,
+    "on": true,
+    "brightness": 100,
+    "color": {
+      "temperatureK": 3982
+    }
+  },
+  "restoration_matches": false
+}

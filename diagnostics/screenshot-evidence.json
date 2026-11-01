@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-28T22:36:26.745093+04:00",
+  "sources": [
+    {
+      "path": "~/Downloads/IMG_1124.PNG",
+      "sha256": "a532a5daa39a6dee451619670fe97b5194c799da37c146e3cf0bc5ee76167a82"
+    },
+    {
+      "path": "~/Downloads/IMG_1125.PNG",
+      "sha256": "296320d1aef550a6fc7e03feac4284eff6a3a634baf7d061ac00d2572ecf38a9"
+    },
+    {
+      "path": "~/Downloads/IMG_1126.PNG",
+      "sha256": "bbab314820df6b332586e3a687f627f045e00c580318def5ffa3de428d419767"
+    },
+    {
+      "path": "~/Downloads/IMG_1127.PNG",
+      "sha256": "a5481491918cf7007c5674b37c57ce01d667e141407e123f15c22fc063caaff7"
+    },
+    {
+      "path": "~/Downloads/IMG_1128.PNG",
+      "sha256": "f75aa3902adadc92d73e6577422f5649b91a13fdefa97cf9c60f96c24dfacdb4"
+    },
+    {
+      "path": "~/Downloads/IMG_1129.PNG",
+      "sha256": "58667a129c9aea8e3e1d69e313ca008e50b80d48c8c904e1e71c84eba41141ea"
+    }
+  ],
+  "bulbs": [
+    {
+      "name": "Tripod lamp",
+      "ip": "192.168.1.172",
+      "discovery_id": "0865F0AAAAAA"
+    },
+    {
+      "name": "Reading Lamp",
+      "ip": "192.168.1.195",
+      "discovery_id": "0865F0BBBBBB"
+    }
+  ],
+  "firmware_text": "WF.4C.35.286.0,V10_ZG-BK38-BP101",
+  "app_network_name": "HomeWiFi",
+  "user_confirmed_powered_bulbs": 2,
+  "note": "Screenshot-derived evidence; virtual IDs deliberately omitted."
+}

@@ -1,0 +1,13 @@
+{
+  "public_url": "https://random-words-example.trycloudflare.com",
+  "/healthz": {
+    "status": 200,
+    "body": "{\"account_linking_configured\":true,\"status\":\"ok\"}\n"
+  },
+  "/fulfillment": {
+    "status": 401
+  },
+  "/oauth/authorize": {
+    "status": 400
+  }
+}

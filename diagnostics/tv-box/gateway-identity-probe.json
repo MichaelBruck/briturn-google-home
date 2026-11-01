@@ -1,0 +1,44 @@
+{
+  "elapsed": 1.203,
+  "found": [
+    {
+      "ipaddr": "192.168.1.195",
+      "id": "0865F0BBBBBB",
+      "model": "AK001-ZJ21413",
+      "model_num": 53,
+      "version_num": 646,
+      "firmware_date": "2025-06-19",
+      "model_info": "ZG-BK38-BP101",
+      "model_description": "Bulb RGBCW",
+      "remote_access_enabled": true,
+      "remote_access_host": "sl8816us01.briturn.net",
+      "remote_access_port": 8816
+    }
+  ],
+  "replies": [
+    {
+      "elapsed": 1.202,
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "3139322e3136382e312e3139352c3038363546303033303036432c414b3030312d5a4a32313431332c3237373663396130386237623466383462313863303038"
+    },
+    {
+      "elapsed": 1.202,
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d33355f3238365f32303235303631395f5a472d424b33382d42503130310d"
+    },
+    {
+      "elapsed": 1.203,
+      "source": [
+        "192.168.1.195",
+        48899
+      ],
+      "hex": "2b6f6b3d5443502c383831362c736c38383136757330312e6272697475726e2e6e65740d"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-28T22:07:31.135802+04:00",
+  "upstream": {
+    "flux_led": {
+      "commit": "cea6348fc6769bf41c91403289b2690089adbec2",
+      "last_commit": "2026-07-02T12:46:07-05:00 chore(ci): bump the github-actions group with 2 updates (#543)"
+    },
+    "ha-briturn": {
+      "commit": "6adf209698dd795a9cebeb1d0254491bd78dd1c7",
+      "last_commit": "2026-04-20T15:43:44+10:00 Initial release: Briturn HA integration v0.1.0"
+    },
+    "zengge-lightcontrol": {
+      "commit": "3565a82ffa9c2f89441c340a6479a430da4d1b09",
+      "last_commit": "2020-05-09T17:59:32-04:00 Delete renovate.json"
+    }
+  },
+  "installed": {
+    "flux-led": "1.2.0",
+    "webcolors": "25.10.0",
+    "async-timeout": "5.0.1"
+  }
+}

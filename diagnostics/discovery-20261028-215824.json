@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-28T21:58:24.910314+04:00",
+  "lan": {
+    "interface": "en0",
+    "address": "192.168.3.120",
+    "subnet": "192.168.3.0/24"
+  },
+  "discovery": [],
+  "udp_replies": [],
+  "devices": []
+}

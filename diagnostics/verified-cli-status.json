@@ -1,0 +1,72 @@
+{
+  "time": "2026-10-28T22:37:17.096534+04:00",
+  "read_only": true,
+  "results": [
+    {
+      "alias": "tripod",
+      "discovery_id_matches_screenshot": true,
+      "status": {
+        "ip": "192.168.1.172",
+        "model": "Bulb RGBCW (0x35)",
+        "model_id": "0x35",
+        "version_byte": 10,
+        "protocol": "LEDENET_25_BYTE",
+        "on": true,
+        "mode": "ww",
+        "color_mode": "CCT",
+        "supported_color_modes": [
+          "CCT",
+          "RGB"
+        ],
+        "brightness_percent": 95.7,
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "warm_white": 233,
+        "cool_white": 11,
+        "white_temperature_kelvin_estimate": 2871,
+        "library_temperature_range_kelvin": [
+          2700,
+          6500
+        ],
+        "raw_state_hex": "813523613050000000e90a0b0fc7",
+        "name": "Tripod lamp"
+      }
+    },
+    {
+      "alias": "reading",
+      "discovery_id_matches_screenshot": true,
+      "status": {
+        "ip": "192.168.1.195",
+        "model": "Bulb RGBCW (0x35)",
+        "model_id": "0x35",
+        "version_byte": 10,
+        "protocol": "LEDENET_25_BYTE",
+        "on": true,
+        "mode": "ww",
+        "color_mode": "CCT",
+        "supported_color_modes": [
+          "CCT",
+          "RGB"
+        ],
+        "brightness_percent": 98.8,
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "warm_white": 252,
+        "cool_white": 0,
+        "white_temperature_kelvin_estimate": 2700,
+        "library_temperature_range_kelvin": [
+          2700,
+          6500
+        ],
+        "raw_state_hex": "813523613050000000fc0a000fcf",
+        "name": "Reading Lamp"
+      }
+    }
+  ]
+}

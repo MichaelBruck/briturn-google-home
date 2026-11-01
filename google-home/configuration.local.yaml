@@ -1,0 +1,19 @@
+# Copy to config/configuration.yaml for the local prototype.
+# No Google credentials or public endpoint are configured here.
+homeassistant:
+  name: My Lights
+  time_zone: Asia/Dubai
+  unit_system: metric
+  currency: AED
+
+default_config:
+
+logger:
+  default: warning
+
+# Enable only once a specific reverse proxy is configured. The planned tunnel
+# container's address is reserved as 172.29.77.3 on this isolated Docker network.
+# http:
+#   use_x_forwarded_for: true
+#   trusted_proxies:
+#     - 172.29.77.3

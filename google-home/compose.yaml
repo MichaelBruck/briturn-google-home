@@ -1,0 +1,23 @@
+name: smart-bulb-google-home
+
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:2026.10.4
+    container_name: smart-bulb-homeassistant
+    restart: "no"
+    environment:
+      TZ: Asia/Dubai
+    ports:
+      - "127.0.0.1:8123:8123"
+    volumes:
+      - ./config:/config
+    networks:
+      bridge:
+        ipv4_address: 172.29.77.2
+
+networks:
+  bridge:
+    name: smart-bulb-google-home
+    ipam:
+      config:
+        - subnet: 172.29.77.0/29

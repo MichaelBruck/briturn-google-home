@@ -1,0 +1,38 @@
+{
+  "time": "2026-10-28T22:48:25.886584+04:00",
+  "lan": "192.168.1.0/24",
+  "mdns": [
+    {
+      "service": "_androidtvremote2._tcp",
+      "output": ""
+    },
+    {
+      "service": "_googlecast._tcp",
+      "output": ""
+    },
+    {
+      "service": "_adb._tcp",
+      "output": ""
+    },
+    {
+      "service": "_adb-tls-connect._tcp",
+      "output": ""
+    },
+    {
+      "service": "_adb-tls-pairing._tcp",
+      "output": ""
+    }
+  ],
+  "known_peer_debug_port": [
+    {
+      "ip": "192.168.1.13",
+      "port": 5555,
+      "result": "ConnectionRefusedError: [Errno 61] Connection refused"
+    },
+    {
+      "ip": "192.168.1.49",
+      "port": 5555,
+      "result": "TimeoutError: timed out"
+    }
+  ]
+}

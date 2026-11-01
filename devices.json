@@ -1,0 +1,16 @@
+{
+  "tripod": {
+    "name": "Tripod lamp",
+    "ip": "192.168.1.172",
+    "discovery_id": "0865F0AAAAAA",
+    "wifi_mac": "08:65:f0:aa:aa:ab",
+    "module": "AK001-ZJ21413"
+  },
+  "reading": {
+    "name": "Reading Lamp",
+    "ip": "192.168.1.195",
+    "discovery_id": "0865F0BBBBBB",
+    "wifi_mac": "08:65:f0:bb:bb:bc",
+    "module": "AK001-ZJ21413"
+  }
+}

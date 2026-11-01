@@ -1,0 +1,14 @@
+# Merge this into config/configuration.yaml only after the developer project and
+# HomeGraph service account are ready. Keep the actual JSON key in ignored config/.
+google_assistant:
+  project_id: YOUR_GOOGLE_HOME_PROJECT_ID
+  service_account: !include SERVICE_ACCOUNT.json
+  report_state: true
+  expose_by_default: false
+  entity_config:
+    light.tripod_lamp:
+      name: Tripod lamp
+      expose: true
+    light.reading_lamp:
+      name: Reading Lamp
+      expose: true

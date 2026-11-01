@@ -1,0 +1,89 @@
+{
+  "time_utc": "2026-10-29T19:18:21.891056+00:00",
+  "mode": "temporary-local-authentication-fixture",
+  "live_writes": false,
+  "oauth_code_exchange": "passed",
+  "unauthenticated_request": 401,
+  "revoked_token_request": 401,
+  "sync": {
+    "payload": {
+      "agentUserId": "local-fixture",
+      "devices": [
+        {
+          "attributes": {
+            "colorModel": "rgb",
+            "colorTemperatureRange": {
+              "temperatureMaxK": 6500,
+              "temperatureMinK": 2700
+            }
+          },
+          "deviceInfo": {
+            "manufacturer": "SKY-TOUCH / Briturn compatible",
+            "model": "AK001-ZJ21413 / 0x35 RGBCW"
+          },
+          "id": "tripod",
+          "name": {
+            "name": "Tripod lamp"
+          },
+          "traits": [
+            "action.devices.traits.OnOff",
+            "action.devices.traits.Brightness",
+            "action.devices.traits.ColorSetting"
+          ],
+          "type": "action.devices.types.LIGHT",
+          "willReportState": false
+        },
+        {
+          "attributes": {
+            "colorModel": "rgb",
+            "colorTemperatureRange": {
+              "temperatureMaxK": 6500,
+              "temperatureMinK": 2700
+            }
+          },
+          "deviceInfo": {
+            "manufacturer": "SKY-TOUCH / Briturn compatible",
+            "model": "AK001-ZJ21413 / 0x35 RGBCW"
+          },
+          "id": "reading",
+          "name": {
+            "name": "Reading Lamp"
+          },
+          "traits": [
+            "action.devices.traits.OnOff",
+            "action.devices.traits.Brightness",
+            "action.devices.traits.ColorSetting"
+          ],
+          "type": "action.devices.types.LIGHT",
+          "willReportState": false
+        }
+      ]
+    },
+    "requestId": "local-check"
+  },
+  "query": {
+    "payload": {
+      "devices": {
+        "reading": {
+          "brightness": 100,
+          "color": {
+            "temperatureK": 3982
+          },
+          "on": true,
+          "online": true,
+          "status": "SUCCESS"
+        },
+        "tripod": {
+          "brightness": 100,
+          "color": {
+            "temperatureK": 3982
+          },
+          "on": true,
+          "online": true,
+          "status": "SUCCESS"
+        }
+      }
+    },
+    "requestId": "local-check"
+  }
+}

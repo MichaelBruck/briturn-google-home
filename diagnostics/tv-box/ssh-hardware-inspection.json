@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-29T22:54:31.707065+04:00",
+  "username": "u0_a52",
+  "ip": "192.168.1.199",
+  "port": 8022,
+  "host_fingerprint_verified_from_photo": "256 SHA256:<box-host-key-fingerprint> [192.168.1.199]:8022 (ED25519)",
+  "source_photo": "~/Downloads/IMG_1162.HEIC",
+  "source_photo_sha256": "1db6fd7ec69df19363a7aa60bb04cf85fc654020711d80e73a689cfabc97d2e0",
+  "returncode": 0,
+  "stdout": "Model: android tv\nManufacturer: Hivendor\nAndroid release: 9.0\nSDK: 28\nSupported ABIs: armeabi-v7a,armeabi\nHardware: bigfish\nBoard: bigfish\nKernel architecture: armv7l\nMemory: 1048576 kB\nTermux storage:\nFilesystem            Size  Used Avail Use% Mounted on\n/dev/block/mmcblk0p21 4.0G  2.4G  1.5G  61% /data\nPython: Python 3.14.8\nSSH: OpenSSH_10.6p1, OpenSSL 3.4.1 11 Feb 2025\n{\n  \"python\": \"3.14.8 (main, Oct 18 2026, 13:48:52) [Clang 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 9f872551d\",\n  \"machine\": \"armv7l\",\n  \"bulb_tcp_access\": [\n    {\n      \"ip\": \"192.168.1.172\",\n      \"port\": 5577,\n      \"result\": \"open\"\n    },\n    {\n      \"ip\": \"192.168.1.195\",\n      \"port\": 5577,\n      \"result\": \"open\"\n    }\n  ]\n}\n",
+  "stderr": ""
+}
